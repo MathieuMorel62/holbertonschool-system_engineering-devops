@@ -9,9 +9,9 @@ In this context, our server hosts a web server (Nginx), an application server, a
 
 ### Domain Name and DNS Record
 
-The domain name serves as a user-friendly address for a website. Instead of typing in an IP address, users can type in a domain name like www.foobar.com. The DNS system then translates this domain name into an IP address that points to the server where the website is hosted.
+- The domain name serves as a user-friendly address for a website. Instead of typing in an IP address, users can type in a domain name like www.foobar.com. The DNS system then translates this domain name into an IP address that points to the server where the website is hosted.
 
-`www` in www.foobar.com is a type of DNS record called CNAME (Canonical Name). This record maps the domain name to another domain. In this case, it is generally used to ensure that the domain and subdomain `www` go to the same application on the server.
+- `www` in www.foobar.com is a type of DNS record called CNAME (Canonical Name). This record maps the domain name to another domain. In this case, it is generally used to ensure that the domain and subdomain `www` go to the same application on the server.
 
 ### Web Server (Nginx)
 
