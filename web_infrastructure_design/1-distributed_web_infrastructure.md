@@ -1,5 +1,5 @@
 # <p align="center">Distributed Web Infrastructure</p>
-<img src="" width="100%">
+<img src="https://github.com/MathieuMorel62/holbertonschool-system_engineering-devops/assets/113856302/9d966486-ef28-48a7-84d8-8b3fd593f0b5" width="100%">
 
 ### Requirements
 
@@ -14,23 +14,23 @@ For this infrastructure, the requirements are as follows:
 
 ### Description of the infrastructure
   
-1. Servers
+1. `Servers`
 
 - We are adding two additional servers to improve the availability and processing capacity of the infrastructure. This distributes the workload and avoids a single point of failure.
 
-2. Web server (Nginx)
+2. `Web server (Nginx)`
 
 - The Nginx web server is used to manage user requests and serve the static files of the website. It acts as a gateway between users and the application server.
 
-3. Application server.
+3. `Application server`.
 
 - The application server is responsible for executing the application code. It interprets the code and generates the dynamic web pages to be displayed to users.
 
-4. Load splitter (HAproxy)
+4. `Load splitter (HAproxy)`
 
 - The HAproxy load balancer is used to fairly distribute incoming requests between the different available servers. It improves the load distribution, availability and performance of the infrastructure.
 
-4. Database (MySQL)
+4. `Database (MySQL)`
 
 - The MySQL database is used to store and manage application data. It allows data persistence and allows application servers to access and manipulate the necessary information.
 
@@ -47,16 +47,16 @@ For this infrastructure, the requirements are as follows:
 
 ### Potential infrastructure problems.
   
-1. Single point of failure (SPOF):
+1. `Single point of failure (SPOF)`:
 
 - Each component of the infrastructure can become a single point of failure. In the event of a server, load balancer or database failure, this may lead to a service interruption or unavailability of the website.
 
-2. Security issues:
+2. `Security issues`:
 
 - The current infrastructure does not include firewalls, which makes it vulnerable to attacks and intrusions. It is recommended to add a firewall to control network traffic and protect servers from potential threats.
 
 - The absence of HTTPS (secure HTTP) exposes communications between users and the web server to the risk of data breach. The implementation of HTTPS is essential to secure exchanges and protect data confidentiality.
 
-3. Lack of supervision:
+3. `Lack of supervision`:
 
 - The infrastructure does not have a monitoring system in place. It is recommended to implement a monitoring system to monitor performance, detect problems and failures, and take preventive or corrective measures.
