@@ -1,5 +1,5 @@
 # <p align="center">Web infrastructure design</p>
-<img src="" width="100%">
+<img src="https://370ztech.com/wp-content/uploads/2020/06/Understanding-Network-Infrastructure-Design.jpg" width="100%">
 
 ## Introduction
 
