@@ -30,7 +30,7 @@ For this infrastructure, the requirements are as follows:
 
 - The HAproxy load balancer is used to fairly distribute incoming requests between the different available servers. It improves the load distribution, availability and performance of the infrastructure.
 
-4. `Database (MySQL)`
+5. `Database (MySQL)`
 
 - The MySQL database is used to store and manage application data. It allows data persistence and allows application servers to access and manipulate the necessary information.
 
