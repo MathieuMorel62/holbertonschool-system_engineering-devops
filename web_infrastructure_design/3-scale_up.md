@@ -1,5 +1,5 @@
-<p align="center">Scale Up</p>
-<img src="">
+# <p align="center">Scale Up</p>
+<img src="https://github.com/MathieuMorel62/holbertonschool-system_engineering-devops/assets/113856302/20905c32-e154-4abe-9ad7-30746fb25faf" width="100%">
 
 ### Requirements
 
