@@ -1,5 +1,5 @@
-<p align="center"> Secured And Monitored Web Infrastructure</p>
-<img src="" widht="100%">
+# <p align="center"> Secured And Monitored Web Infrastructure</p>
+<img src="https://github.com/MathieuMorel62/holbertonschool-system_engineering-devops/assets/113856302/0f80899c-aedf-44c6-b8c3-c3a2219f003f" widht="100%">
 
 ### Requirements
 
